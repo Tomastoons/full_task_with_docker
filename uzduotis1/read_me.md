@@ -11,11 +11,11 @@ conda activate uzd1_env
 
 
 
-# (skip this if using conda)
+# (skip step bellow if using conda)
 ##  or if you do not prefer to install conda or miniconda then you need to install pip:
 python3 -m ensurepip --upgrade
 ##  and then install requirements modules with pip:
-# (skip this if using conda)
+# (skip step bellow if using conda)
 pip install requests
 
 ## and then run services:
