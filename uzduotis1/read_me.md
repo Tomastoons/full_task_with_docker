@@ -2,9 +2,9 @@
 
 # this is first services (Event propagator)
 
-# how to run:
+## how to run:
 
-# if you are using conda or miniconda then you need to activate isolated environment by running: 
+## if you are using conda or miniconda then you need to activate isolated environment by running: 
 
 
 conda activate uzd1_env
@@ -12,23 +12,23 @@ conda activate uzd1_env
 
 
 # (skip this if using conda)
-#  or if you do not prefer to install conda or miniconda then you need to install pip:
+##  or if you do not prefer to install conda or miniconda then you need to install pip:
 python3 -m ensurepip --upgrade
-#  and then install requirements modules with pip:
+##  and then install requirements modules with pip:
 # (skip this if using conda)
 pip install requests
 
-# and then run services:
+## and then run services:
 
 python3 main.py
 
-# for windows:
+## for windows:
 
 python3 .\main.py
 
-# change main.py if you are in diffrent directory {path to main.py file} - python3 {path}
+## change main.py if you are in diffrent directory {path to main.py file} - python3 {path}
 
 
-# To deactivate an active environment, use
+## To deactivate an active environment, use
 
 conda deactivate
