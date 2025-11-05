@@ -1,6 +1,5 @@
-# for this task I was using UBUNTU OS
 
-## instructions how to run:
+# instructions how to run:
 
 
 ## double-check Python 3 installation:
@@ -11,19 +10,24 @@ python3 --version
 
 sudo apt install python3
 
-## install docker engine
+## For Windows
+https://www.python.org/downloads/
+
+## install docker engine (for LINUX)
 
 https://docs.docker.com/engine/install/
 
-## install docker-desktop by installing Docker Desktop on Linux enables host.docker.internal to work, if using Windows just install docker
+## install docker-desktop
 
 https://docs.docker.com/desktop/setup/install/windows-install/
 
 
-# and now run server by this command:
+# and now run server with this command:
 
+## LINUX
 sudo docker compose up --build
-
+## WINDOWS
+docker compose up --build
 
 # ADDITIONAL endpoints usage example: 
 
