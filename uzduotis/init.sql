@@ -1,0 +1,4 @@
+CREATE DATABASE payloads;
+CREATE ROLE superuser WITH PASSWORD 'slapta';
+GRANT ALL PRIVILEGES ON DATABASE payloads TO superuser;
+ALTER ROLE "superuser" WITH LOGIN;
